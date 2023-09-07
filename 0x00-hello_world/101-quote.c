@@ -13,6 +13,6 @@ int main(void)
 	char txt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	unsigned int textSize = (sizeof(txt) / sizeof(char));
 
-	write(1, txt, textSize);
+	write(0, txt, textSize);
 	return (1);
 }
