@@ -1,19 +1,18 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry Point
+ *
+ * Role: Print a Quote
  *
  * Return: Always 1 (Success)
  */
 int main(void)
 {
-	char paragraph[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	int i = 0;
+	char txt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	unsigned int textSize = (sizeof(txt) / sizeof(char));
 
-	while (paragraph[i] != '\0')
-	{
-		putchar(paragraph[i]);
-	}
-	putchar('\n');
+	write(1, txt, textSize);
 	return (1);
 }
