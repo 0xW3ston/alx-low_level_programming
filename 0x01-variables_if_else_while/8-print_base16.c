@@ -5,7 +5,7 @@
  *
  * Description: print base 16 characters
  *
- * Return: Nothing
+ * Return: 0 if successful.
  */
 int main(void)
 {
@@ -21,4 +21,6 @@ int main(void)
 		putchar(iAlphabet++);
 	}
 	putchar('\n');
+
+	return (0);
 }

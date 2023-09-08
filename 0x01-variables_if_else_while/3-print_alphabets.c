@@ -21,5 +21,7 @@ int main(void)
 		putchar(iUpper++);
 	}
 	putchar('\n');
+
+	return (0);
 }
 

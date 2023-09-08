@@ -5,7 +5,7 @@
  *
  * Description: Print all numbers using their ASCII code
  *
- * Return: Nothing
+ * Return: 0 if successful.
  */
 int main(void)
 {
@@ -16,4 +16,6 @@ int main(void)
 		putchar(iNumbers++);
 	}
 	putchar('\n');
+
+	return (0);
 }

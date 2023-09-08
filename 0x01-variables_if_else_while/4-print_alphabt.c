@@ -22,4 +22,6 @@ int main(void)
 		putchar(iLower++);
 	}
 	putchar('\n');
+
+	return (0);
 }

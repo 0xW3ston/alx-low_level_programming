@@ -5,7 +5,7 @@
  *
  * Description: Prints all numbers that belong to base 10
  *
- * Return: Nothing
+ * Return: 0 if successful.
  */
 int main(void)
 {
@@ -16,4 +16,6 @@ int main(void)
 		printf("%d", i++);
 	}
 	printf("\n");
+
+	return (0);
 }

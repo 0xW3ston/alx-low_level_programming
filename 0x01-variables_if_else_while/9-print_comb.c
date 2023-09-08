@@ -5,7 +5,7 @@
  *
  * Description: print from 0 to 9 in a specific way
  *
- * Return: Nothing
+ * Return: 0 if successful.
  */
 int main(void)
 {
@@ -22,4 +22,6 @@ int main(void)
 		iNumbers++;
 	}
 	putchar('\n');
+
+	return (0);
 }

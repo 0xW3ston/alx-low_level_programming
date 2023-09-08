@@ -5,7 +5,7 @@
  *
  * Description: print all (lowercase) letters in reverse.
  *
- * Return: Nothing
+ * Return: 0 if successful.
  */
 int main(void)
 {
@@ -16,4 +16,6 @@ int main(void)
 		putchar(iLower--);
 	}
 	putchar('\n');
+
+	return (0);
 }
