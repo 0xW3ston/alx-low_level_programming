@@ -13,7 +13,7 @@ int main(void)
 	while (iTeration < 33)
 	{
 		iTeration++;
-		
+
 		new = n1 + n2;
 		if (n1 < 4000000 && !(n1 % 2))
 		{
