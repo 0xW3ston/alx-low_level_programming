@@ -12,7 +12,7 @@ void print_times_table(int n)
 	int power = 0;
 	int result = 0;
 
-	if (n >= 0 || n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		while (num <= n)
 		{
