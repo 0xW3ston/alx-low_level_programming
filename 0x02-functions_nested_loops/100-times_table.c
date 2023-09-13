@@ -38,6 +38,13 @@ void print_times_table(int n)
 	}
 }
 
+/**
+ * compare_then_print - it's just a helper to minimize code
+ * it helps format the commas and spaces.
+ * @result: is the integer passed to it to print alongisde the "," and the " "
+ *
+ * Return: Nothing (always)
+ */
 void compare_then_print(int result)
 {
 	_putchar(',');
