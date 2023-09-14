@@ -16,7 +16,7 @@ int main(void)
 		if (number % prime == 0)
 		{
 			number /= prime;
-			prime++;
+			prime = prime - 1;
 		}
 	}
 	printf("%ld\n", prime);
