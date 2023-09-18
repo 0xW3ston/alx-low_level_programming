@@ -9,14 +9,13 @@ void rev_string(char *s)
 {
 	int i = 0;
 	int length = 0;
+	char str_rev[700];
 
 	while (*(s + i) != '\0')
 	{
 		length++;
 		i++;
 	}
-
-	char str_rev[700];
 
 	str_rev[length] = '\0';
 
