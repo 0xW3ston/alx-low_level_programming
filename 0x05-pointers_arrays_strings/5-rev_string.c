@@ -15,9 +15,8 @@ void rev_string(char *s)
 		length++;
 		i++;
 	}
-	int l = length + 1;
 
-	char str_rev[l];
+	char str_rev[700];
 
 	str_rev[length] = '\0';
 
