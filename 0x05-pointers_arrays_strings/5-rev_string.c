@@ -15,8 +15,9 @@ void rev_string(char *s)
 		length++;
 		i++;
 	}
+	int l = length + 1;
 
-	char str_rev[length + 1];
+	char str_rev[l];
 
 	str_rev[length] = '\0';
 
