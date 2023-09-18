@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	while (*(a + i) != *(a + n))
+	while ((*(a + i) != *(a + n)) && n > 0)
 	{
 		if (i != 0)
 		{
