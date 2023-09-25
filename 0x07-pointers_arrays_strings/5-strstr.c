@@ -9,7 +9,7 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int x, y;
-	char *ptr = NULL;
+	char *ptr = 0;
 
 	for (x = 0; haystack[x] != '\0'; x++)
 	{
