@@ -9,7 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	int x;
-	char *ptr = NULL;
+	char *ptr = 0;
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
