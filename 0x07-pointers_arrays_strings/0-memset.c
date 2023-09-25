@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _memset - Occupies the first n bytes from a String with
  * a specific character passed to the parameter "b"
@@ -16,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[x] = b;
 	}
 
-	Return(s);
+	return(s);
 }
