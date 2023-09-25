@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _memset - Occupies the first n bytes from a String with
  * a specific character passed to the parameter "b"
