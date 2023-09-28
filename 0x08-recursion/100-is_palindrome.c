@@ -33,6 +33,9 @@ int is_palindrome(char *s)
 
 int palindrom_check(char *str, int i, int length)
 {
+
+	int result;
+
 	if (str[i] != str[length - 1])
 	{
 		return (0);
@@ -41,8 +44,7 @@ int palindrom_check(char *str, int i, int length)
 	{
 		return (1);
 	}
-
-	int result = palindrom_check(str, i + 1, length - 1);
+	result = palindrom_check(str, i + 1, length - 1);
 
 	return (result);
 }
