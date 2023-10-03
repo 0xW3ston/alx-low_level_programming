@@ -21,6 +21,9 @@ char *create_array(unsigned int size, char c)
 
 	arr_ptr = malloc(sizeof(char) * size);
 
+	if (arr_ptr == NULL)
+		return (NULL);
+
 	for (i = 0; i < size; i++)
 	{
 		arr_ptr[i] = c;
