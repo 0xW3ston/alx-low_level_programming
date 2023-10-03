@@ -15,23 +15,17 @@ char **strtow(char *str)
 	int i, j, length = 0, w_len, charr = 0, start, end;
 
 	j = 0, charr = 0, length = 0;
-
 	while (str[length])
-	{
 		length++;
-	}
-
 	w_len = _wc(str);
-
 	if (w_len == 0)
 	{
 		return (NULL);
 	}
-
 	m = (char **) malloc(sizeof(char *) * (w_len + 1));
+
 	if (m == NULL)
 		return (NULL);
-
 	for (i = 0; i <= length; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
@@ -55,7 +49,6 @@ char **strtow(char *str)
 	}
 
 	m[j] = NULL;
-
 	return (m);
 }
 
