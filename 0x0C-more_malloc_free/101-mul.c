@@ -20,7 +20,7 @@ int _strlen(char *s)
 }
 
 /**
- * _is_digit - sees if digit or not
+ * _is_dig - sees if digit or not
  * @s: string
  *
  * Return: 1 if is number (successful)
@@ -40,11 +40,11 @@ int _is_dig(char *s)
 }
 
 /**
- * main - multiplies two positive numbers
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - multiplies two integers
+ * @argc: number of argums
+ * @argv: array of argums
  *
- * Return: always 0 (Success)
+ * Return:always 0 ( if successful)
  */
 int main(int argc, char **argv)
 {
