@@ -10,8 +10,8 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
+	char *_memset(char *s, char b, unsigned int n);
 	void *mem;
-	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 	{
@@ -24,10 +24,26 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 
-	for (i = 0; i < nmemb; i++)
-	{
-		*(((char *)mem) + i) = 0;
-	}
+	_memset(mem, 0, size * nmemb);
 
 	return (mem);
+}
+
+/**
+ * *_memset - copies a byte to memory
+ * @str: string memory addr
+ * @b: byte (char)
+ * @n: size
+ * Return: PTR to memory adr
+ */
+char *_memset(char *str, char b, unsigned int n)
+{
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		str[i] = b;
+	}
+
+	return (str);
 }
