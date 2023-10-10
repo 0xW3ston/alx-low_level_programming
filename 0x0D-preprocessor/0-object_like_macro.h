@@ -3,4 +3,4 @@
 
 #define SIZE 1024
 
-#endif /* macro_size */
+#endif /*Macro_size*/
