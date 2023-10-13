@@ -7,7 +7,7 @@ it's like an SQL Cursor:
 {Variadic List} that contains information => va_list arg;
 
 {OPEN} => (aka allocate the memory for the arguments):
-    va_start(arg, n) [n being something to iterate on]
+    va_start(arg, n) [n being last const argument (non-variable)]
 {FETCH NEXT} =>
     va_arg(arg, <Type>) [Type being datatype of the argument
         like int, double, char, char *, ect..]
