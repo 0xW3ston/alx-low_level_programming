@@ -2,9 +2,12 @@
 
 /**
  * print_numbers - Prints numbers
- * @separator: pointer to string.
- * @n: count of arg in fonction.
- * @...: A variable numbers to be printed.
+ * @separator: PTR to seperator
+ *
+ * @n: number of args
+ * @...: A variable numbers to print
+ *
+ *Return: Nothing (Always)
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
