@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints elem
- * @h: ll
+ * @h: Linked List
  * Return: elements cnt
  */
 
